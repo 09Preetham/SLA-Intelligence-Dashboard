@@ -1,3 +1,10 @@
+"""
+Project: SLA Intelligence Dashboard
+Description: Analyzes impact of error frequency on SLA breaches
+Author: V S M Preetham NAIDU
+"""
+
+
 import pandas as pd
 df = pd.read_csv("customer_support_data.csv")
 
@@ -12,3 +19,4 @@ sla_priority = (
 )
 
 print(sla_priority)
+
