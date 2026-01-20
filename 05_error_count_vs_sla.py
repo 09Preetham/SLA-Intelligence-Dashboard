@@ -1,3 +1,9 @@
+"""
+Project: SLA Intelligence Dashboard
+Description: Analyzes impact of error frequency on SLA breaches
+Author: V S M Preetham NAIDU
+"""
+
 import pandas as pd
 
 # Load the dataset
@@ -19,3 +25,4 @@ error_sla = error_sla.sort_values(
 
 # Display result
 print(error_sla)
+
